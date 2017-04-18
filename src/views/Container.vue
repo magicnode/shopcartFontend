@@ -14,31 +14,16 @@ export default {
   },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App',
-      sheetVisible: false,
-      actions: [{
-        name: '首页',
-        method () {
-          this.$router.push({'path': 'income/detail?type=' + name})
-        }
-      }, {
-        name: 'App下载',
-        method () {
-          this.$router.push({'path': 'download'})
-        }
-      }]
+      msg: 'Welcome to Your Vue.js App'
     }
   },
   methods: {
-    actionsheetCotrl () {
-      this.sheetVisible ? this.sheetVisible = false : this.sheetVisible = true
-    }
   }
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less">
 .mj-container {
-    min-height: 73vh;
+    min-height: 76vh;
 }
 </style>

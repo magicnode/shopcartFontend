@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Container from '@/views/Container'
+import Index from '@/views/Index'
 
 Vue.use(Router)
 
@@ -9,17 +9,23 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Container',
-      component: Container,
-      children: [{
-        path: '/index',
-        name: 'Index',
-        component: require('../views/Index')
-      }, {
-        path: '/download',
-        name: 'Download',
-        component: require('../views/Download')
-      }]
+      name: 'Index',
+      component: Index
+    },
+    {
+      path: '/goshopping',
+      name: 'GoShopping',
+      component: require('@/views/GoShopping')
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: require('@/views/Login')
+    },
+    {
+      path: '/rating',
+      name: 'Rating',
+      component: require('@/views/Rating')
     }
   ]
 })

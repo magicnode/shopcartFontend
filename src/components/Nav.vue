@@ -54,7 +54,6 @@ header.mint-header {
   }
   div.mint-header-button.is-left {
     flex:.6;
-    background-image: url('../assets/miji_logo.png');
     background-size:80% 80%;
     background-repeat: no-repeat;
     background-position: 5px 4px;
@@ -64,7 +63,6 @@ header.mint-header {
   }
   div.mint-header-button.is-right {
     flex:.2;
-    background-image: url('../assets/icon/ico_fun.png');
     background-size:90% 63%;
     background-repeat: no-repeat;
     background-position: 5px 8px;
